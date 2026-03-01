@@ -1,0 +1,36 @@
+name: jordan_journey
+description: تطبيق السياحة في الأردن - Jordan Journey
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # المكتبات الأصلية
+  audioplayers: ^5.2.1
+  url_launcher: ^6.3.1
+  cupertino_icons: ^1.0.2
+  # إضافة مكتبة تشغيل الفيديو
+  video_player: ^2.8.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/dead_sea.jpg
+    - assets/images/wadi_rum.jpg
+    - assets/images/karak_castle.jpg
+    - assets/images/jerash.jpg
+    - assets/images/petra.jpg
+    - assets/audio/correct.mp3
+    - assets/audio/wrong.mp3
+    - assets/videos/mm.mp4
+    
